@@ -22,7 +22,6 @@ class MainTest {
 
         inputList_actual = main.SortAlphabetically(inputList_actual);
 
-        main.SortAlphabetically(inputList_expected);
         assertEquals(inputList_expected, inputList_actual);
     }
 
